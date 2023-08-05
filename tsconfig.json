@@ -1,18 +1,33 @@
 {
-	"compilerOptions": {
-		"target": "ES6",
-		"module": "CommonJS",
-		"strict": true,
-		"strictPropertyInitialization": false,
-		"moduleResolution": "node",
-		"baseUrl": ".",
-		"types": [
-			"reflect-metadata"
-		],
-		"esModuleInterop": true,
-		"experimentalDecorators": true,
-		"emitDecoratorMetadata": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true
-	}
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "types": [
+      "reflect-metadata",
+      "./src/@types"
+    ],
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@controllers/*": [
+        "controllers/*"
+      ],
+      "@services/*": [
+        "services/*"
+      ],
+      "@repositories/*": [
+        "repositories/*"
+      ],
+      "@types/*": [
+        "@types/*"
+      ]
+    }
+  }
 }
