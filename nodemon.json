@@ -1,0 +1,8 @@
+{
+  "ignore": [".git", "node_modules", "dist"],
+  "watch": ["./src"],
+  "ext": ".ts, .js, .json, .yaml",
+  "events": {
+    "start": "node -e console.clear()"
+  }
+}
