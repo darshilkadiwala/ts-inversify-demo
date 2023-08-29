@@ -2,17 +2,9 @@
 title: Node.js App with Express, Inversify and TypeScript
 description: This repo showcases a Node.js app with Inversify for DI and TypeScript for type safety. Learn code organization, DI setup, and Inversify Express Utils routing.
 draft: true
-keywords:
-  - node
-  - node.js
-  - typescript
-  - inversify
-  - express
-  - sample
-  - app
+keywords: node, node.js, typescript, inversify, express, sample, app
 slug: node-js-app-express-inversify-typescript
-tags:
-  - typescript
+tags: typescript
 ---
 
 # Node.js App with Inversify and TypeScript
